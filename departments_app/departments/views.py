@@ -10,6 +10,7 @@ from django.shortcuts import render, redirect
 #     body = f'path: {request.path}, args = {args}, kwargs= {kwargs}, order_by: {order_by}'
 #     return HttpResponse(body)
 
+
 # with render function
 def show_departments(request, *args, **kwargs):
     context = {
